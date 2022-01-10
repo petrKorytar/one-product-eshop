@@ -1,0 +1,82 @@
+.imageContainer{
+    position: absolute;
+    top: 190px;
+    right: 22%;
+    left: 22%;
+    justify-content: center;
+    max-width: 800px;
+    height: 100%;
+}
+
+.mainImage{
+    width: 100%;
+}
+
+img{
+    display: block;
+    cursor: pointer;
+}
+
+.smallImageCont{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+.smallImageCont img{
+    width: 100px;
+    margin: 5px 1px;
+    padding: 5px;
+}
+.smallImageCont img:hover{
+    opacity: 0.5;
+}
+
+.arrowContainerLeft{
+    height: 60px;
+    width: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    position: absolute;
+    top: 300px;
+    left: 10%;
+    right: 90%;
+    z-index: 2;
+}
+.fa-chevron-left{
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 3rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrowContainerRight{
+    height: 60px;
+    width: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    position: absolute;
+    top: 300px;
+    left: 82%;
+    right: 18%;
+    z-index: 2;
+}
+
+.fa-chevron-right{
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 3rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrowContainerRight:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.arrowContainerLeft:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
