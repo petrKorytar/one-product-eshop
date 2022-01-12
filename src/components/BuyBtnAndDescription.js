@@ -3,17 +3,14 @@ import './BuyBtnAndDescription.css'
 
 const BuyBtnAndDescription = () => {
     return (
-        <div>
-            <p>Buy Btn And Description</p>
-            <p>Buy Btn And Description</p>
-            <p>Buy Btn And Description</p>
-            <p>Buy Btn And Description</p>
-            <p>Buy Btn And Description</p>
-            <p>Buy Btn And Description</p>
-            <p>Buy Btn And Description</p>
-            <p>Buy Btn And Description</p>
-            <p>Buy Btn And Description</p>
-            <p>Buy Btn And Description</p>
+        <div className='buyContainer'>
+            <form >
+                <label>
+                    <input type="number"/>
+                </label>
+                
+                <input type="submit" value="Přidat do košíku" />
+            </form>
         </div>
     )
 }
