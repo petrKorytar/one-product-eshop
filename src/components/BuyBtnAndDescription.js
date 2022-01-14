@@ -6,10 +6,10 @@ const BuyBtnAndDescription = () => {
         <div className='buyContainer'>
             <form >
                 <label>
-                    <input type="number"/>
+                    <input type="number" className='numberInput'/>
                 </label>
                 
-                <input type="submit" value="Přidat do košíku" />
+                <input type="submit" className='submitButton' value="Přidat do košíku" />
             </form>
         </div>
     )

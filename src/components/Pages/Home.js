@@ -1,12 +1,12 @@
 import './Style/Home.css'
 import ShowImage from '../Gallery/imageGallery.js'
-import BuyBtnAndDescriptio from '../BuyBtnAndDescription.js'
+import BuyBtnAndDescription from '../BuyBtnAndDescription.js'
 
 const MyHome = () => {
     return (  
         <>
                 <ShowImage/>
-                <BuyBtnAndDescriptio/>
+                <BuyBtnAndDescription/>
         </>
     )
 }
