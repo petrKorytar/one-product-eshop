@@ -1,9 +1,5 @@
 .imageContainer{
-    position: absolute;
-    top: 190px;
-    right: 22%;
-    left: 22%;
-    justify-content: center;
+    margin: 170px 22% 0 22%;
     max-width: 800px;
     max-height: 800px;
 }

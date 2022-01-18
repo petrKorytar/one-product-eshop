@@ -1,15 +1,12 @@
 .buyContainer{
-    position: absolute;
-    top: 750px;
-    right: 22%;
-    left: 22%;
-    justify-content: center;
+    margin: 20px 42% 0 42%;
 }
 
 .submitButton{
     margin-left: 15px;
     padding: 9px 15px;
     font-size: 17px;
+    font-weight: bold;
     text-decoration: underline solid black 1px;
     text-underline-position: under;
     border-radius: 5px;
@@ -20,9 +17,6 @@
 
 .submitButton:hover{
     background-color: rgb(255, 133, 19);
-}
-
-.numberInput {
-    border-radius: 3px;
-    width: 40px;
+    transition: width 0.7s ease, background-color 0.5s ease;
+    text-decoration: underline solid black 2px;
 }
