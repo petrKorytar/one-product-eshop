@@ -4,18 +4,20 @@ import "./Style/About.css"
 const MyAbout = () => {
     return (
         <>
-            <h1>About</h1>
-            <div className='aboutDiv'>
-                <p>O mě</p>
-                <p>O mě</p>
-                <p>O mě</p>
-                <p>O mě</p>
-                <p>O mě</p>
-                <p>O mě</p>
-                <p>O mě</p>
-                <p>O mě</p>
-                <p>O mě</p>
-                <p>O mě</p>
+            <div className='aboutContainer'>
+                <h1>About</h1>
+                <div className='aboutDiv'>
+                    <p>O mě</p>
+                    <p>O mě</p>
+                    <p>O mě</p>
+                    <p>O mě</p>
+                    <p>O mě</p>
+                    <p>O mě</p>
+                    <p>O mě</p>
+                    <p>O mě</p>
+                    <p>O mě</p>
+                    <p>O mě</p>
+                </div>
             </div>
         </>
     )
