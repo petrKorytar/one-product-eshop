@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 import "./NavBar.css";
 
 function MyNavBar() {
@@ -19,43 +20,28 @@ function MyNavBar() {
           <NavLink exact to="/" className="nav-logo">
             LOGO
           </NavLink>
-
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Domů
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/about"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                O mě
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/contact"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Kontakt
-              </NavLink>
-            </li>
             
-          </ul>
+                <ul className={click ? "nav-menu active" : "nav-menu"}>
+                  <li className="nav-item">
+                    <Link
+                      activeClass="active" to="home" style={{cursor:"pointer"}}  spy={true} smooth={true} offset={50} duration={500} onClick={handleClick}>
+                      Domů
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link
+                      activeClass="active" to="about" style={{cursor:"pointer"}} spy={true} smooth={true} offset={50} duration={500} onClick={handleClick} >
+                      O mě
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link
+                      activeClass="active" to="contact" style={{cursor:"pointer"}}  spy={true} smooth={true} offset={50} duration={500} onClick={handleClick} >
+                      Kontakt
+                    </Link>
+                  </li>
+                  
+                </ul>
 
           <div className="nav-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"}></i>

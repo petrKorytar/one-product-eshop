@@ -3,15 +3,15 @@ import'./Style/ShoppingCart.css'
 
 const MyShoppingCart = () => {
     return (
-        <div>
-            <p>Shop</p>
-            <p>Shop</p>
-            <p>Shop</p>
-            <p>Shop</p>
-            <p>Shop</p>
-            <p>Shop</p>
-            <p>Shop</p>
-            <p>Shop</p>
+        <div className='shopContainer'>
+                <p>Shop</p>
+                <p>Shop</p>
+                <p>Shop</p>
+                <p>Shop</p>
+                <p>Shop</p>
+                <p>Shop</p>
+                <p>Shop</p>
+                <p>Shop</p>
         </div>
     )
 }
